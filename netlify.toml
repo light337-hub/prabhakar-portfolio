@@ -1,0 +1,5 @@
+# Single-page app: serve index.html for every path so /aura works on direct visits and refresh.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
